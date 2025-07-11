@@ -3,30 +3,20 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "Weather App",
+    description: "A responsive weather application built using HTML, CSS, and JavaScript. It fetches real-time weather data and displays it in a clean, user-friendly interface.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    tags: ["HTML", "CSS", "JavaScript"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Chef Claude",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+    "A React-based recipe application that fetches and displays cooking recipes. Built using HTML, CSS, and React, it features a clean UI and dynamic search to help users discover dishes easily.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
-  {
-    id: 3,
-    title: "E-commerce Platform",
-    description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
+    tags: ["HTML", "CSS", "React"],
     demoUrl: "#",
     githubUrl: "#",
   },
